@@ -9,6 +9,7 @@ The GUI elements of the music player include:
 •	A QPushButton for looping the current song
 •	A QPushButton for adding songs to the playlist
 The QListWidget is limited to a maximum size of 400x300 pixels.
+
 Functionality
 The program uses the Pygame library for playing the music, and includes the following functions:
 play()
