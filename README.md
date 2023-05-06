@@ -22,7 +22,9 @@ add()
 This function opens a file dialog window, allowing the user to select audio files to add to the playlist. The function supports files with extensions .mp3, .ogg, and .wav. The selected files are added to the playlist and displayed in the QListWidget.
 closeEvent(event)
 This function is called when the user attempts to close the application. It stops the currently playing music and quits the Pygame library before closing the application.
+
 Pygame Initialization
 The Pygame library is initialized at the start of the program.
+
 Main Function
 The main function creates a new instance of the Application class, which is a QWidget that contains the GUI elements for the music player. It then runs the application loop using app.exec_().
